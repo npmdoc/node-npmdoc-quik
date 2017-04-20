@@ -1,0 +1,262 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a>quik (v0.11.2)</a>
+</h1>
+<h4>A quick way to prototype apps with React and Babel with zero-setup.</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.quik">module quik</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.quik.bundle">
+            function <span class="apidocSignatureSpan">quik.</span>bundle
+            <span class="apidocSignatureSpan">(_x)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.quik.html">
+            function <span class="apidocSignatureSpan">quik.</span>html
+            <span class="apidocSignatureSpan">(_x)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.quik.init">
+            function <span class="apidocSignatureSpan">quik.</span>init
+            <span class="apidocSignatureSpan">(_x)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.quik.server">
+            function <span class="apidocSignatureSpan">quik.</span>server
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">quik.</span>middleware</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.quik.middleware">module quik.middleware</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.quik.middleware.default">
+            function <span class="apidocSignatureSpan">quik.middleware.</span>default
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.quik" id="apidoc.module.quik">module quik</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.quik.bundle" id="apidoc.element.quik.bundle">
+        function <span class="apidocSignatureSpan">quik.</span>bundle
+        <span class="apidocSignatureSpan">(_x)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bundle = function (_x) {
+  return _ref.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.quik.html" id="apidoc.element.quik.html">
+        function <span class="apidocSignatureSpan">quik.</span>html
+        <span class="apidocSignatureSpan">(_x)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">html = function (_x) {
+  return _ref.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.quik.init" id="apidoc.element.quik.init">
+        function <span class="apidocSignatureSpan">quik.</span>init
+        <span class="apidocSignatureSpan">(_x)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">init = function (_x) {
+  return _ref.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.quik.server" id="apidoc.element.quik.server">
+        function <span class="apidocSignatureSpan">quik.</span>server
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">server = function (options) {
+  var app = (0, _koa2.default)();
+
+  app.use((0, _koaLogger2.default)());
+  app.use((0, _quikMiddleware2.default)(options));
+  app.use((0, _koaStatic2.default)(options.root, { defer: true }));
+
+  return app;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.quik.middleware" id="apidoc.module.quik.middleware">module quik.middleware</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.quik.middleware.default" id="apidoc.element.quik.middleware.default">
+        function <span class="apidocSignatureSpan">quik.middleware.</span>default
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">default = function (options) {
+  var middlewares = [];
+
+  middlewares.push((0, _quikMiddlewareJs2.default)({
+    devtool: 'inline-source-map',
+    root: options.root
+  }));
+
+  var script = void 0,
+      watch = void 0;
+
+  if (options.run) {
+    script = options.run;
+    watch = [script];
+  } else if (options.watch) {
+    watch = options.watch;
+  } else {
+    var index = 'index.js';
+
+    try {
+      _fs2.default.accessSync(index, _fs2.default.R_OK);
+      watch = [index];
+    } catch (e) {
+      // Do nothing
+    }
+
+    try {
+      _fs2.default.accessSync('index.html', _fs2.default.R_OK);
+    } catch (e) {
+      script = index;
+    }
+  }
+
+  if (script) {
+    middlewares.push((0, _quikMiddlewareRun2.default)({
+      root: options.root,
+      script: script
+    }));
+  }
+
+  if (watch &amp;&amp; watch.length) {
+    middlewares.push((0, _quikMiddlewareHmr2.default)({
+      devtool: 'inline-source-map',
+      root: options.root,
+      entry: watch
+    }));
+  }
+
+  return (0, _koaCompose2.default)(middlewares);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
